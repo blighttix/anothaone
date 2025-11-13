@@ -22,10 +22,15 @@ ul, ol {
     padding-left: 100px;
 }
 
-table {
+table, th, td {
     background-color: white;
     color: black;
     margin: 0 auto 10px auto;
-    border: 10px;
-    border-style: dashed;
+    border: 2px;
+    border-style: ridge;
 }
+
+a {color: gold;}
+a:hover {color: goldenrod;}
+
+img {width: 100px;}
